@@ -7,3 +7,6 @@
 - run `docker build --no-cache .`
 - tag container as `cockroachdb/cockroach:${version}` using `docker tag ${build-id} cockroachdb/cockroach:${version}`
 - either push container to your container repository of choice using `docker push` or export the container to a gzip file using `docker export cockroachdb/cockroach:${version} | gzip > cockroachdb.tgz` 
+
+## References
+- Dockerfile and other sources are modified from examples in the cockroachdb/cockroach repository on github
